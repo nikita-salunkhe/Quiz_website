@@ -1,0 +1,35 @@
+body{
+  margin-top: 10px;
+  background:linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,.05));
+  background-image: url(photos/quizid.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.opbox{
+  background-color: rgba(211,211,211,0.5);
+  background-origin:padding-padding-box;|border-box|content-box|initial|center;
+  padding: 50px;
+}
+input[type='text']{
+  color:black;
+  background : transparent;
+  border: 1px solid black;
+  margin-top: 10px;
+  padding: 10px;
+  transition:0.5s;
+  letter-spacing: 1px
+}
+input[type="submit"]{
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  margin-top: 20px;
+  cursor: pointer;
+  padding: 10px 25px;
+  transition: 0.5s;
+}
+input[type="submit"]:hover{
+  background-color: #9370db;
+  border: 1px solid black;
+  color: black;
+}

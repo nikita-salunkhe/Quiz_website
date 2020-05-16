@@ -1,0 +1,20 @@
+body{
+  background:linear-gradient(rgba(0,0,60,0.5),rgba(0,0,60,.05));
+  background-image: url(photos/displayquiz.jpg);
+  background-size: cover;
+  background-position: center;
+}
+input[type="submit"]{
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  margin-top: 20px;
+  cursor: pointer;
+  padding: 10px 25px;
+  transition: 0.5s;
+}
+input[type="submit"]:hover{
+  background-color: #9370db;
+  border: 1px solid white;
+  color: black;
+}

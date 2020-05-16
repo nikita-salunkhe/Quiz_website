@@ -1,0 +1,46 @@
+body{
+  font-family:montserrat;
+  background:linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,.05));
+  background-image: url(photos/information.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.opbox1{
+  background-color: rgba(211,211,211,0.5);
+  background-origin:padding-padding-box;|border-box|content-box|initial|center;
+  background-size: cover;
+  padding: 50px
+}
+h1{
+  color: black;
+}
+
+
+input[type='text'],input[type='time']{
+  color:black;
+  background : transparent;
+  border:0;
+  outline:0;
+  border-bottom: 1px solid black;
+  margin-top: 10px;
+  padding: 10px;
+  transition:0.5s;
+  letter-spacing: 1px
+}
+.a{
+   color: black;
+}
+input[type="submit"]{
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+  margin-top: 20px;
+  cursor: pointer;
+  padding: 10px 25px;
+  transition: 0.5s;
+}
+input[type="submit"]:hover{
+  background-color: #9370db;
+  border: 1px solid white;
+  color: black;
+}
